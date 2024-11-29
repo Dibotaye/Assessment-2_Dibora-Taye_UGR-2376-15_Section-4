@@ -1,0 +1,100 @@
+/* General Layout */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Layout */
+.header-part {
+    padding: 30px 15%;
+}
+
+/* Navigation Bar Layout */
+.navbar ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+/* Main Content Layout */
+.container {
+    padding: 0 15%;
+    margin: 25px 0;
+}
+.first-section {
+    display: flex;
+    gap: 30px;
+}
+.content {
+    width: 30%;
+}
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.more{
+    margin: 25px 0;
+}
+
+/* Sidebar Layout */
+.sidebar-menu {
+    list-style: none;
+}
+.sidebar-menu li {
+    padding: 10px;
+}
+/* second secton layout*/
+.second-section{
+    display: flex;
+    gap:30px;
+}
+
+/* Footer Layout */
+.footer-container {
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.under-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%;
+}
+.under-footer ul {
+    padding-left: 20px;
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+.imagegallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding-top: 10px;
+}
+
+/* About and Contact Page Layout */
+.about-contact-container {
+    display: flex;
+    padding: 0 15%;
+    gap: 30px;
+    margin: 25px 0;
+}
+.first-about-contact-section {
+    width: 60%;
+}
+.contact-form label {
+    display: block;
+    margin: 15px 0;
+}
+form input, textarea {
+    width: 77%;
+    padding: 10px 0;
+}
+.contact-form button {
+    display: block;
+    margin: 15px 0;
+}
+

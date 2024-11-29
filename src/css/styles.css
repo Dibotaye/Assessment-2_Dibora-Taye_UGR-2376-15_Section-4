@@ -1,0 +1,136 @@
+/* General Styling */
+* {
+    font-family: Montserrat;
+}
+
+/* Header Styling */
+.header-part {
+    background: #242A24;
+}
+header p {
+    padding-left: 100px;
+    color: #fff;
+    font-weight: 50;
+}
+header h1 {
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 1000;
+    padding-bottom: 40px;
+}
+header span {
+    color: #D97A36;
+}
+
+/* Navigation Bar Styling */
+.navlist li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #99C311;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), inset 0 -2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+}
+.navlist li a:hover{
+    background: #D97A36;
+}
+.navlist .color-change {
+    background: #D97A36;
+}
+
+/* Text Links */
+p a {
+    color: #99C311;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+.container h2 {
+    color: #99C311;
+    padding: 10px 0;
+}
+section h4 {
+    padding: 10px 0;
+}
+.readmore {
+    color: #D97A36;
+}
+
+/* Sidebar Styling */
+.sidebar-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer Styling */
+.footer-container {
+    background: #373434;
+    color: #fff;
+}
+.image-with-note {
+    width: 100%;
+    max-width: 33%;
+    height: auto;
+    max-height: 60px;
+    float: left;
+    margin: 3px 3px 3px 0;
+}
+.image-with-note img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.under {
+    background: black;
+    font-size: 12px;
+}
+.under-footer{
+    color: #fff;
+}
+.under-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Image Gallery Styling */
+.imagegallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1px;
+}
+
+/* About and Contact Page Styling */
+.about-contact-container h2 {
+    color: #99C311;
+    padding: 10px 0;
+}
+.btn{
+    padding: 10px 20px;
+    background: #99C311;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), inset 0 -2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover {
+    background: linear-gradient(135deg, #7AAE0E, #99C311);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), inset 0 -2px 5px rgba(255, 255, 255, 0.1);
+}
+
